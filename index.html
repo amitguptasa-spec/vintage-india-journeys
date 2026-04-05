@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vintage India Journeys Pvt Ltd | B2B DMC</title>
+    <meta
+      name="description"
+      content="Vintage India Journeys Pvt Ltd is a B2B travel company and DMC focused on Uttar Pradesh, Madhya Pradesh, and Odisha."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="logo">Vintage India Journeys <span>Pvt Ltd</span></a>
+        <nav>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+          <ul id="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Pure B2B Travel Partner</p>
+            <h1>Reliable DMC for Uttar Pradesh, Madhya Pradesh & Odisha</h1>
+            <p>
+              Build your outbound business in India with local destination experts,
+              transparent contracts, and smooth on-ground operations.
+            </p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-primary">Request B2B Rates</a>
+              <a href="#services" class="btn btn-outline">View Services</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>For Travel Agents & Tour Operators</h2>
+            <ul>
+              <li>FIT & Group handling with fast turnaround</li>
+              <li>Contracted hotels, transport, and guides</li>
+              <li>Custom itineraries with local insight</li>
+              <li>Dedicated support from quote to departure</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container split">
+          <div>
+            <h2>About Vintage India Journeys</h2>
+            <p>
+              Vintage India Journeys Pvt Ltd is a specialized B2B travel company and
+              destination management company focused on three high-potential states:
+              Uttar Pradesh, Madhya Pradesh, and Odisha.
+            </p>
+            <p>
+              We help travel businesses deliver richer experiences through dependable
+              operations, destination know-how, and flexible product design.
+            </p>
+          </div>
+          <div class="stat-grid">
+            <article>
+              <h3>100%</h3>
+              <p>B2B Focused</p>
+            </article>
+            <article>
+              <h3>3</h3>
+              <p>Core Destination States</p>
+            </article>
+            <article>
+              <h3>24x7</h3>
+              <p>On-Tour Assistance</p>
+            </article>
+            <article>
+              <h3>Fast</h3>
+              <p>Quotation Support</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="destinations" class="section section-muted">
+        <div class="container">
+          <h2>Destination Expertise</h2>
+          <div class="cards">
+            <article class="card">
+              <h3>Uttar Pradesh</h3>
+              <p>
+                Spiritual circuits, heritage cities, and iconic monuments from Agra and
+                Varanasi to Ayodhya and Lucknow.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Madhya Pradesh</h3>
+              <p>
+                Wildlife, UNESCO heritage, and cultural immersion in destinations like
+                Khajuraho, Orchha, and Bandhavgarh.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Odisha</h3>
+              <p>
+                Temple architecture, coastal routes, eco-experiences, and tribal
+                culture in Bhubaneswar, Puri, Konark, and beyond.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <h2>Our B2B Services</h2>
+          <div class="cards service-cards">
+            <article class="card">
+              <h3>Ground Operations</h3>
+              <p>Transport, accommodation, local assistance, and quality control.</p>
+            </article>
+            <article class="card">
+              <h3>Custom Itinerary Design</h3>
+              <p>Theme-based itineraries for FIT, MICE, student, and group travel.</p>
+            </article>
+            <article class="card">
+              <h3>Contracting & Pricing</h3>
+              <p>Competitive net rates and clear inclusions for better margins.</p>
+            </article>
+            <article class="card">
+              <h3>Destination Support</h3>
+              <p>Pre-arrival planning and in-destination response for every departure.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-us" class="section section-dark">
+        <div class="container">
+          <h2>Why Partner With Us</h2>
+          <ul class="bullet-grid">
+            <li>Focused DMC expertise across high-demand states</li>
+            <li>Professional communication and prompt turnaround</li>
+            <li>Scalable support for both small and high-volume partners</li>
+            <li>Transparent operations with service consistency</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container split">
+          <div>
+            <h2>Let’s Build Your India Product Together</h2>
+            <p>
+              Share your requirements and we will send suggested itineraries, net rates,
+              and operation notes tailored to your market.
+            </p>
+          </div>
+          <form class="contact-form" onsubmit="event.preventDefault(); showThanks();">
+            <label>
+              Company Name
+              <input type="text" placeholder="Your travel company" required />
+            </label>
+            <label>
+              Business Email
+              <input type="email" placeholder="name@company.com" required />
+            </label>
+            <label>
+              Requirement
+              <textarea rows="4" placeholder="Tell us your market and tour plans"></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send Inquiry</button>
+            <p id="thanks" class="thanks" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Vintage India Journeys Pvt Ltd. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
